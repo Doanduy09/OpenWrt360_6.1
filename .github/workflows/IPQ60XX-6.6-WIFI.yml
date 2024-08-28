@@ -94,7 +94,8 @@ jobs:
         cd $OPENWRT_PATH
         ./scripts/feeds update -a
         ./scripts/feeds install -a
-  
+        echo "src-git modem https://github.com/kiddin9/openwrt-packages.git" >> "feeds.conf.default"
+
     - name: Load Custom Configuration
       run: |
         [ -e files ] && mv files $OPENWRT_PATH/files

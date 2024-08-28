@@ -10,3 +10,4 @@ src-git sqm_scripts_nss https://github.com/qosmio/sqm-scripts-nss.git
 #src-link custom /usr/src/openwrt/custom-feed
 #src-git kenzo https://github.com/kenzok8/openwrt-packages
 #src-git small https://github.com/kenzok8/small
+src-git modem https://github.com/kiddin9/openwrt-packages.git

@@ -12,6 +12,7 @@ get_sources() {
   cd openwrt
   ./scripts/feeds update -a
   ./scripts/feeds install -a
+  echo "src-git modem https://github.com/kiddin9/openwrt-packages.git" >> "feeds.conf.default"
   cd -
 }
 

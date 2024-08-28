@@ -23,7 +23,7 @@ on:
 permissions:
   contents: write
 env:
-  REPO_URL: https://github.com/LiBwrt-op/openwrt-6.x.git
+  REPO_URL: https://github.com/immortalwrt/immortalwrt.git
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config-jdc
